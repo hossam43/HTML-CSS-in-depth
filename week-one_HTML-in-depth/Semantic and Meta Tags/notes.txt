@@ -1,0 +1,61 @@
+Meta Data
+
+SEO : this process   involves making improvements to a website's content semantics and deilivery to improve its ranking in search eangine 
+
+what the search eangine do when it enter my website?
+it analyzes the html document and media content and if it find a link in your website it analze it and keeps doing that to all links in your website untile it is finshed analyzung the entire websitef 
+
+then the search engine will rank my website for various search tearms 
+very search engine has its own algorithm for ranking websites 
+
+Robots metadata >> 
+
+meta name = "robots" content= "index,follow"
+
+it tells search engines if and how they should analyze your web page 
+
+the name robots comes from the automated software often referred to as bots,that search engines used to analyze websites.
+the robots meata data has 4 posibles valuse to follow
+- index to tells the bot to analze the page
+- follow tells the bot to visit all links on the page 
+- no index 
+- nofollow : bots ingnor it
+
+View port metadata >>
+
+,eta name = "viewport" content= "width=device-width, initial-scale=1.0"
+it is importent when desging responsive web pages 
+
+							Description meatadata >>
+
+to help search engine understand what the web page ios about 
+
+Open Graph Protocol properties
+
+og:title
+<meat property = "og:title" content= "my title">
+og:type 
+og:url
+og:image 
+og:descrption 
+og:locale mention the language reatten in the website
+og:site_name mention the name of the website 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

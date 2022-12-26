@@ -1,0 +1,24 @@
+								 for validation
+is the process of ensures that data is valid and conforms to defined and conforms to rules defined by the developer
+
+there are two type off form validation 
+
+- client-side validation : chick for error as soon as possible they are typed into the form 
+this done by the browser or the javascript code and provide the user with immediate feedback 
+1- filled out correctlty ?
+2- if no error the form will be submitted to the server for processing 
+3- but if there are an error an alert will pop up to the user 
+<input type = email 
+here the input type must be an email
+
+- serve-side validation
+after the data submited to the web server
+this run much complix validating like 
+
+validating the data against database or against business requirments
+
+<input type= "email">
+tel for telephones
+url for url 
+data time number range 
+
