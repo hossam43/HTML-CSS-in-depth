@@ -1,0 +1,34 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.segment {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  grid-template-rows: 100px;
+}
+
+.twelve {
+  background-color: blue;
+  /* tells the element to start from the first column and span all the 12 columns */
+  grid-column: 1 / span 12;
+}
+
+/* start for the fifth colum and to thge eight colume */
+
+.eight {
+  background-color: chartreuse;
+  grid-column: 5 / span 12;
+}
+
+.six {
+  background-color: crimson;
+  grid-column: 1 / span 6;
+}
+
+.four {
+  background-color: rgb(238, 215, 5);
+  grid-column: 4 / span 4;
+}

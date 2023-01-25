@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  height: 150vh;
+  /* one VH is equal to 1 percent of the viewport height */
+  grid-template-rows: auto 1fr auto;
+}
+header {
+  background-color: #2e3335;
+  text-align: center;
+  padding: 2em;
+}
+main {
+  background-color: #405d64;
+  text-align: center;
+  padding: 2em;
+}
+
+footer {
+  background-color: rgb(24, 31, 28);
+  text-align: center;
+  padding: 2em;
+}
